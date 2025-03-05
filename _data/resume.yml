@@ -32,23 +32,26 @@ main: #简历主要内容，
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 河南科技大学
     duration: "2018年9月 - 2022年7月"
-    sub: 洛阳洛龙区
-    detail: 物联网工程 物联网工程专业是交叉学科，结合了通信技术、传感技术、嵌入式系统、计算机网络和大数据分析等多个领域，主要研究如何通过感知设备（如传感器）采集数据，并通过网络传输和平台分析，实现物与物、人与物之间的智能连接与互动。
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+    sub: 洛阳市洛龙区
+    detail: 物联网工程 物联网工程专业是交叉学科，结合了通信技术、传感技术、嵌入式系统、计算机网络和大数据分析等多个领域，主要研究如何通过感知设备（如传感器）采集数据，并通过网络传输和平台分析，实现物与物、人与物之间的智能连接与互动。 
+  #- title: Your University
+  #  duration: Aug 2007 - Jun 2011
+  #  sub: Ut enim ad minim veniam
+  #  detail: Master Bachelor of Computer Science & Technology.
 
 - type: skills
   # name: "技能"
   content:
-  - title: 编程语言
+  - title: 
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
+    - C
+    - C++
+    - Python
+    - C#
   - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    summary: 能够独立编写程序，熟练使用Qt Creator
+    summary: 熟练掌握Socket开发，串口通信, 熟练使用 TCP/UDP/http协议，熟练使用rabbitMq中间件通信;
+    
 
 - type: experience
   name: 经验
